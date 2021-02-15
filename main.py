@@ -15,5 +15,5 @@ async def on_message(message):
 
 
 
-ClientCode = os.environ["BOT_TOKEN"]
+ClientCode = os.environ['BOT_TOKEN']
 client.run(ClientCode)
