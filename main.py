@@ -13,7 +13,7 @@ async def on_ready():
 @client.event
 async def on_message(message):
     if message.content.startswith('hi'):
-        await client.send_message(message.channel, "hello")
+        await message.chnnel.sen('hello')
 
 
 
