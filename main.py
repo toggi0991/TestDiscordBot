@@ -16,6 +16,9 @@ async def on_message(message):
     if message.content.startswith('hi'):
         await message.channel.send('hello')
 
+    if message.content.startswith('death gaurdians'):
+        await message.chaanel.sen('gaurdians down!')
+
 
 
 ClientCode = os.environ['BOT_TOKEN']
