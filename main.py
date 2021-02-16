@@ -17,7 +17,7 @@ async def on_message(message):
         await message.channel.send('hello')
 
     if message.content.startswith('death gaurdians'):
-        await message.chaanel.sen('gaurdians down!')
+        await message.chaanel.send('gaurdians down!')
 
 
 
